@@ -7,12 +7,17 @@
 		</div>
 		<div class="ny_two_column">
 			    <div class="ny_column column_first">
-				<strong>简介:</strong><?php the_excerpt(); ?>
+				    <p>
+					    <strong>简介:</strong><?php the_excerpt(); ?>
+				    </p>
 			    </div>
 			    <div class="ny_column column_second">
-				<strong>发布日期：</strong><?php the_time('F j, Y'); ?><br />
-				<strong>关于作者:</strong><?php the_author_posts_link(); ?><br />
-				<strong>所属主题:</strong><?php the_category(', ') ?><br />
+				    <p>
+					<strong>发布日期：</strong><?php the_time('F j, Y'); ?><br />
+					<strong>关于作者：</strong><?php the_modified_author(); ?><?php the_author_description(); ?><br />
+					<strong>技术主题：</strong><?php the_category(', ') ?>
+				    </p>
+
 			    </div>
 		</div>
 	</div>
