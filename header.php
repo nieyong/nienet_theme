@@ -64,7 +64,7 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 
 
 	<div id="headernav">
-		<ul id="nav">
+		<ul>
 			<li><a href="<?php echo get_settings('home'); ?>">首页</a></li>
 			<?php wp_list_pages('exclude=73,36&title_li=&depth=2&sort_column=menu_order'); ?>
                                                             <li><a href="http://nieyong.github.com">知识库</a></li>
