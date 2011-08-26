@@ -27,11 +27,11 @@
         <h2>关于</h2>
         <div class="h_b_area_bg">
         <p>NieNet是一个多人供稿的技术博客。本站专注于嵌入式基本知识，为嵌入式和Linux初学者提供一个静心学习，夯实基础的平台。</p>
-        <p>了解更多：<a href="http://nienet.com/?page_id=73">本站日志</a></p>
+        <p>了解更多：<a href="http://nienet.com/?page_id=2">关于NieNet</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://nienet.com/?page_id=73">本站日志</a></p>
         </div>
     </div>    
     <div class="h_b_area">
-        <h2>本站推荐</h2>
+        <h2>技术主题</h2>
         <div class="h_b_area_bg">
         <ul>
             <p>专注以下四个技术领域</p>
